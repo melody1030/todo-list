@@ -7,13 +7,15 @@
 	</head>
 <body>
    	<div>ToDoList</div>
-    <button type="submit" class="btn btn-primary btn-sm" id="myHeader" onclick="getValue()">add</button>
-    <button onclick="listbox_remove();">delete</button>	
-    <script src="todolist.js"></script>
-	<ul id="myList">
-	<form>
-		<input id="checkbox" type="checkbox" name="" value=""><br>
-	</form>
-</ul>
+   	<h1>Be careful - when you click [Delete All] - "EVERYTHING WILL BE DELETED"</h1>
+    <button type="submit" class="btn btn-primary btn-sm" id="myHeader" onclick="getValue()">Add something to do</button>
+    <button id='delButton' onclick="deleteObject()">Delete All</button>	
+ 
+
+	<ul id="myList"></ul>
+	
+	<script src="jquery-1.11.3.min.js"></script>
+	<script src="todolist.js"></script>
+
 </body>
 </html>
