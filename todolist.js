@@ -29,11 +29,6 @@ function getValue(){
     funcCalled = funcCalled++;
 }
 
-
-function check(){
-    var check = true;
-}
-
 function deleteObject(){
     if(check = true){
         $("#myList #item").remove();
