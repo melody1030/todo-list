@@ -28,7 +28,6 @@ function getValue(){
     var c = document.getElementById("checkbox").cloneNode(true);
     funcCalled = funcCalled++;
 }
-//add list end
 
 
 //delete all
