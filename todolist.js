@@ -7,10 +7,10 @@ var r = Math.floor( (Math.random()*256) ),
 var colorHex = "rgb("+r+","+g+","+b+")";
 
 document.body.style.backgroundColor = colorHex;
-
 //background color end. 
 
 
+//add list
 var funcCalled = 0
 
 function getValue(){
@@ -28,12 +28,13 @@ function getValue(){
     var c = document.getElementById("checkbox").cloneNode(true);
     funcCalled = funcCalled++;
 }
+//add list end
 
+
+//delete all
 function deleteObject(){
-    if(check = true){
         $("#myList #item").remove();
-        $("#check").remove();
-    }    
+        $("#check").remove(); 
 }
  
     
